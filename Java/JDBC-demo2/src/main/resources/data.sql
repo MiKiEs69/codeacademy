@@ -1,0 +1,2 @@
+INSERT INTO STUDENTS VALUES(1,'Antanas', 'Kurlys');
+INSERT INTO STUDENTS VALUES(2, 'Karolis', 'Kairys');

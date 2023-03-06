@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" data-th-href="@{/css/form.css}">
+    <title>new</title>
+</head>
+<body>
+<div class="main-framework">
+    <h1>[[${book.title}]]</h1>
+    <form action="#" th:action="@{/books/edit}" th:object="${book}" method="post">
+
+        <p>Id: <input type="text" th:field="*{id}" readonly></p>
+        <p>Name: <input type="text" th:field="*{title}"/></p>
+        <div th:if="${#fields.hasErrors('title')}" th:errors="*{title}" th:errorclass="error-style">Title error</div>
+        <p>Author: <input type="text" th:field="*{author}"/></p>
+        <div th:if="${#fields.hasErrors('author')}" th:errors="*{author}" th:errorclass="error-style">Author error</div>
+        <p>ISBN: <input type="text" th:field="*{isbn}"/></p>
+        <div th:if="${#fields.hasErrors('isbn')}" th:errors="*{isbn}" th:errorclass="error-style">ISBN error</div>
+        <input type="submit" value="Save"/>
+        <input type="reset" value="Reset"/>
+    </form>
+</div>
+</body>
+</html>

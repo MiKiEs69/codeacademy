@@ -1,0 +1,12 @@
+{
+  "adress" : {
+    "country" : "LIETUVA",
+    "postCode" : "45612",
+    "namųAdresas" : "Sauletekio al."
+  },
+  "owner" : {
+    "firstName" : "Antanas",
+    "lastName" : "Kurlys"
+  },
+  "type" : "living quarters"
+}

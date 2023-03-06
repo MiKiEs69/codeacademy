@@ -1,0 +1,22 @@
+.form-error {
+    border: 2px solid red;
+}
+
+/* html {
+    background-color: red;
+} */
+
+.comment-form-input {
+    margin-bottom: 10px;
+}
+
+
+
+.main-framework {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}

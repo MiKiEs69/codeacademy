@@ -1,0 +1,7 @@
+org\example\Person.class
+org\example\Adress$Country.class
+org\example\Serialize.class
+org\example\Serialize$Json.class
+org\example\Adress.class
+org\example\Property.class
+org\example\Serialize$IOStreams.class

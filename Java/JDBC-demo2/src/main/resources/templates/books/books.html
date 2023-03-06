@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" data-th-href="@{/css/form.css}">
+    <title>books</title>
+</head>
+<body>
+<div class="main-framework">
+    <th:block th:each="book : ${books}">
+        <a th:href="@{/books/{id}(id=${book.id})}">
+            <div th:text="${book.id} + '. ' + ${book.author} + '. ' + ${book.title}">Dummy book</div>
+        </a>
+    </th:block>
+</div>
+</body>
+<br>
+<footer>
+    <div class="main-framework">
+        <a th:href="@{/books/new}">Create new book</a>
+        <br>
+        <div>
+            Total books [[${totalElements}]]: page [[${currentPage}]] of [[${totalPages}]]
+            <span th:each="i : ${#numbers.sequence(1, totalPages)}">
+            <a th:href="@{'/books/pages/' + ${i}}">[[${i}]]</a>
+        </span>
+        </div>
+    </div>
+</footer>
+</html>
