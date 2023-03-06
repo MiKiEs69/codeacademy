@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paskaita14-Uzduotis1</title>
+    <link rel="stylesheet" href="Uzduotis3.css">
+    <script src="Uzduotis3.js"></script>
+
+</head>
+
+<body>
+    <div class="flex-wrapper">
+        <table class="train-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Train number</th>
+                    <th>City From</th>
+                    <th>City To</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <form class="train-table-row-input">
+            <label class="form-label green-alert-text">Enter the Train Details:</label>
+            <div>
+                <label for="id-input">ID:</label>
+                <input type="number" id="id-input" name="id">
+            </div>
+            <div>
+                <label for="train-number-input">Train number:</label>
+                <input type="text" id="train-number-input" name="trainNumber" placeholder="TR-00000">
+            </div>
+            <div>
+                <label for="city-from-input">City From:</label>
+                <select id="city-from-input" name="cityFrom">
+                    <option style="display:none"></option>
+                    <option value="Vilnius">Vilnius</option>
+                    <option value="Kaunas">Kaunas</option>
+                    <option value="Klaipėda">Klaipėda</option>
+                </select>
+            </div>
+            <div>
+                <label for="city-to-input">City To:</label>
+                <select id="city-to-input" name="cityTo">
+                    <option style="display:none"></option>
+                    <option value="Vilnius">Vilnius</option>
+                    <option value="Kaunas">Kaunas</option>
+                    <option value="Klaipėda">Klaipėda</option>
+                </select>
+            </div>
+            <div>
+                <label name="time" for="time-input">Time:</label>t
+                <input type="time" id="time-input" name="time" step=60>
+            </div>
+            <button id="submit-button" class="form-label green-alert-text" type="submit">Add</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

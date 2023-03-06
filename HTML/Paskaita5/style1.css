@@ -1,0 +1,96 @@
+label {
+    margin-left: 40px;
+}
+
+.input-box {
+    text-align: right;
+    margin-right: 20px;
+    line-height: 180%;
+    vertical-align: top;
+    /* border: 2px solid black; */
+}
+
+.custom-indent-and-bullet {
+    list-style-type:circle;
+    margin-left: 20px;
+
+}
+
+li h3,
+h4 {
+    color: darkgrey
+}
+
+.whiteboard {
+    height: fit-content;
+    width: 1100px;
+    background-color: white;
+
+}
+
+.column-second {
+    width: 35%;
+    height: 520px;
+    background-color: white;
+    /* display: inline-block; */
+    border: 2px solid white;
+    padding-left: 15px;
+    vertical-align: 0px;
+    padding-top: 5px;
+    border-radius: 20px;
+    border-color: lightgrey;
+
+}
+
+.divisive-line {
+    margin-top: 10px;
+    width: 95%;
+    border: 1px solid darkgray;
+    margin-bottom: 15pt;
+
+}
+
+input {
+    width: 150px;
+}
+
+#expiration-date-input {
+    width: 152px;
+}
+
+#agree-input {
+    width: fit-content;
+}
+
+.chekbox-board {
+    margin-top: 0pt;
+    margin-bottom: 40px;
+    font-size: 10pt;
+    width: 250pt;
+    display: inline-block;
+}
+
+button {
+    /* margin-left: 100px; */
+    font-size: 8pt;
+}
+
+.select-box {
+    display: inline-block;
+    width: 267px;
+    height: fit-content;
+    background-color: white;
+    border: 2px solid white;
+    text-align: left;
+}
+
+.validate-box {
+    width: 100%;
+    background-color: white;
+    border: 2px solid white;
+    text-align: center;
+    height: fit-content;
+    margin-left: -10px;
+
+
+}

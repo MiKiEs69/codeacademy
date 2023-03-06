@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 50px;
+    justify-content: space-between;
+
+
+}
+
+.backround-wrapper {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+
+}

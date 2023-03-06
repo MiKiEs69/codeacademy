@@ -1,0 +1,15 @@
+.flex-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 50px;
+  
+}
+
+button {
+    flex-grow: 1;
+    height: 50px;
+    width: 50px;
+}
+
+

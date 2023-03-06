@@ -1,0 +1,43 @@
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 50px;
+    
+  
+}
+
+.inner-flex {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+button {
+    flex-grow: 1;
+    height: 50px;
+}
+
+#readout-label {
+    height: 70px;
+
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    font-size: 40pt;
+    color: green;
+    text-align: center;
+    height: 70px;
+
+}
+
+label {
+    line-height: 50px;
+    flex-grow: 1;
+
+    
+}

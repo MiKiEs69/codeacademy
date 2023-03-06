@@ -1,0 +1,76 @@
+.white-container {
+    vertical-align: top;
+    display: inline-flex;
+    background-color: white;
+    width: 80px;
+    height: 220px;
+    border: 1px solid darkgray;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.align-content-flex-start {
+    align-content: flex-start;
+}
+
+.align-content-flex-end {
+    align-content: flex-end;
+}
+
+.align-content-flex-center {
+    align-content: center;
+}
+
+.align-content-space-between {
+    align-content: space-between;
+}
+
+.align-content-space-around {
+    align-content: space-around;
+}
+
+.flex-for-two {
+    display: flex;
+}
+
+.item {
+    display: inline-flex;
+    font-size: 14pt;
+    width: 40px;
+    height: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.red {
+    background-color: orangered;
+}
+
+
+.flex-wrap-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.yellow {
+    background-color: gold;
+}
+
+.cyan {
+    background-color:cornflowerblue;
+}
+
+.green {
+    background-color: chartreuse;
+}
+
+.purple {
+    background-color: plum;
+}
+
+.brown {
+    background-color: brown;
+}

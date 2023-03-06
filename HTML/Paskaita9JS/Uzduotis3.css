@@ -1,0 +1,32 @@
+.flex-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 50px;
+    align-items: center;
+    
+  
+}
+
+.inner-flex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    height: 50px;
+    text-align: center;
+}
+
+input {
+    flex-grow: 1;
+
+}
+
+input {
+    height: 50px;
+    line-height: 50px;
+
+    
+}

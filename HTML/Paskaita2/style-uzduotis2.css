@@ -1,0 +1,24 @@
+div {
+    width: 120px;
+    height: 30px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}

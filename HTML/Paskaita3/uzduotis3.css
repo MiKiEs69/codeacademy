@@ -1,0 +1,34 @@
+
+header, nav, main, .related, footer {
+    border: 4px solid blue;
+    margin: 3px;
+    padding-inline: 3px;
+}
+
+main {
+    text-align: justify;
+}
+
+.query-fields {
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+.query-box {
+    display: inline-block;
+    border-radius: 4px;
+ }
+
+.go-button {
+    display: inline-block;
+    border-radius: 4px;
+    border: darkgrey 2px solid;
+    background-color: lightgrey;
+}
+.query-box {
+    border: 2px darkgrey solid;
+    padding-right: 50px;
+    color: darkgrey;
+}
+
